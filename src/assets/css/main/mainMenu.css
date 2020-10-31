@@ -1,0 +1,30 @@
+ .main-menu {
+     font-size: 14px;
+     color: #b3bcc5;
+     position: fixed;
+     width: 200px;
+     height: calc(100% - 70px);
+     left: 0;
+     top: 70px;
+     background-color: #4d5e70;
+ }
+ 
+ .main-menu p {
+     font-weight: bold;
+     padding: 10px;
+ }
+ 
+ .main-menu ul li {
+     padding: 10px 10px 10px 50px;
+     cursor: pointer;
+ }
+ 
+ .main-menu ul li.active {
+     background-color: #ccc;
+     color: black;
+ }
+ 
+ .main-menu ul li:hover {
+     background-color: rgba(255, 255, 255, .6);
+     color: black;
+ }

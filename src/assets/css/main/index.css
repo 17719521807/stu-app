@@ -1,0 +1,7 @@
+@import "./mainHeader.css";
+@import "./mainMenu.css";
+@import "./mainContent.css";
+.stu-main {
+    height: 100vh;
+    background-color: #ddd;
+}

@@ -1,0 +1,41 @@
+.custom-alert {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 0 10px;
+    line-height: 50px;
+}
+
+.fade-in {
+    animation: fadeIn .6s;
+    animation-fill-mode: forwards;
+}
+
+.fade-out {
+    animation: fadeOut .6s;
+}
+
+@keyframes fadeIn {
+    from {
+        top: 0;
+        opacity: 0;
+    }
+    to {
+        top: 100px;
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        top: 100px;
+        opacity: 1;
+    }
+    to {
+        top: 0;
+        opacity: 0;
+    }
+}

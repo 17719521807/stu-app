@@ -4,12 +4,22 @@ import Vuex from 'vuex'
 Vue.use(Vuex)
 
 export default new Vuex.Store({
-  state: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
-  modules: {
-  }
+    state: {
+        show: 'stuList',
+        username: false,
+        stuList: []
+    },
+    mutations: {
+        commitShow(state, paload) {
+            state.show = paload.show;
+        },
+        commitUsername(state, paload) {
+            state.username = paload.username;
+        },
+        commitStuList(state, paload) {
+            state.stuList = paload.stuList;
+        }
+    },
+    actions: {},
+    modules: {}
 })
